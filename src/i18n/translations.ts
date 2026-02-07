@@ -1,0 +1,36 @@
+export type Language = "en" | "ja";
+
+export const translations = {
+  en: {
+    appName: "Order App",
+    loginTitle: "Sign in",
+    loginSubtitle: "Choose your login mode",
+    modeUser: "User",
+    modeAdmin: "Admin",
+    nameLabel: "Name (English)",
+    usernameLabel: "Username",
+    passwordLabel: "Password",
+    loginButton: "Log in",
+    switchLanguage: "日本語",
+    userWelcome: "Welcome",
+    calendarTitle: "This month",
+    adminDashboard: "Admin Dashboard",
+    logout: "Log out",
+  },
+  ja: {
+    appName: "Order App",
+    loginTitle: "ログイン",
+    loginSubtitle: "ログインモードを選択してください",
+    modeUser: "ユーザー",
+    modeAdmin: "管理者",
+    nameLabel: "名前（英語）",
+    usernameLabel: "ユーザー名",
+    passwordLabel: "パスワード",
+    loginButton: "ログイン",
+    switchLanguage: "English",
+    userWelcome: "ようこそ",
+    calendarTitle: "今月",
+    adminDashboard: "管理者ダッシュボード",
+    logout: "ログアウト",
+  },
+};
